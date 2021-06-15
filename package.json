@@ -9,6 +9,7 @@
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
+    "@ant-design/react-native": "^4.1.0",
     "@callstack/react-theme-provider": "^3.0.6",
     "@expo-google-fonts/lato": "^0.1.0",
     "@expo-google-fonts/oswald": "^0.1.0",
