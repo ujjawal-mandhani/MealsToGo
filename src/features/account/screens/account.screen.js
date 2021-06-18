@@ -4,11 +4,12 @@ import { AccountBackground } from "../components/account.styles";
 import { AccountCover } from "../components/account.styles";
 import { AccountContainer } from "../components/account.styles";
 import { AuthButton } from "../components/account.styles";
-
+import { Title } from "../components/account.styles";
 export const AccountScreen = ({ navigation }) => {
   return (
     <AccountBackground>
       <AccountCover />
+      <Title>Meals To Go</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
